@@ -1,0 +1,6 @@
+train: E:\python-yolo\train
+val: E:\python-yolo\val
+
+nc: 1
+
+names: ["api"]

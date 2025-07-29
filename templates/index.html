@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="hdev.web.id">
+    <title>FIRE DETECTION</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <!-- Bootstrap ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <!-- Sweet Alert CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.3/dist/sweetalert2.min.css" rel="stylesheet">
+    <!-- datatables CSS -->
+    <link href="https://cdn.datatables.net/2.1.0/css/dataTables.bootstrap5.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.3/dist/sweetalert2.all.min.js"></script>
+    <!-- JQuery JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- assets image -->
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="main mt-0">
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+
+            <img src="{{ url_for('static', filename='assets/hero-bg-abstract.jpg') }}" alt="" data-aos="fade-in" class="">
+
+            <div class="container">
+                <div class="row justify-content-center" data-aos="zoom-out">
+                    <div class="col-xl-7 col-lg-9 text-center">
+                        <h1>Website Fire Detection</h1>
+                        <p>website ini adalah untuk uji coba mendeteksi api menggunakan <strong>YOLO V8</strong> yang sudah saya buat</p>
+                    </div>
+                </div>
+
+                <div class="row gy-4 mt-5 justify-content-center">
+                    <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="100">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bi bi-camera"></i></div>
+                            <h4 class="title"><a href="/camera">Camera Detection</a></h4>
+                            <p class="description">Mendeteksi object menggunakan kamera anda</p>
+                        </div>
+                    </div><!--End Icon Box -->
+
+                    <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="200">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bi bi-card-image"></i></div>
+                            <h4 class="title"><a href="/upload">Image Detection</a></h4>
+                            <p class="description">Mendeteksi object menggunakan upload image</p>
+                        </div>
+                    </div><!--End Icon Box -->
+                </div>
+            </div>
+
+        </section><!-- /Hero Section -->
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/v/bs5/dt-2.1.0/datatables.min.js"></script>
+</body>
+
+</html>
