@@ -30,6 +30,8 @@ Proyek ini bertujuan untuk mengidentifikasi keberadaan api secara real-time dari
 ![val_batch0_pred](https://github.com/user-attachments/assets/eb6ad8c6-a33f-452b-9c90-c603154701a7)
 <img width="1103" height="828" alt="Screenshot 2025-07-29 143520" src="https://github.com/user-attachments/assets/06faf2eb-1c67-4b7c-9bad-8bfafeb9efcf" />
 ![test](https://github.com/user-attachments/assets/5e2de0f6-a0f1-4fe4-8d5e-a4578fd1f027)
+---
+## Video Detection
 https://github.com/user-attachments/assets/b55daf84-0a80-4a81-b299-7bf72e54cfb7
 
 
