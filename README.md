@@ -10,9 +10,7 @@ Proyek ini bertujuan untuk mengidentifikasi keberadaan api secara real-time dari
 - ✅ Deteksi api secara real-time dengan akurasi tinggi
 - ✅ Menggunakan model YOLOv8 yang ringan dan powerful
 - ✅ Dukungan input dari gambar, video, atau kamera langsung
-- ✅ Siap dikembangkan untuk integrasi sistem notifikasi atau IoT
-- ✅ Dapat digunakan untuk berbagai lingkungan: hutan, gudang, rumah, dll
-
+  
 ---
 
 ## 🛠️ Teknologi yang Digunakan
