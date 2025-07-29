@@ -23,6 +23,5 @@ Proyek ini bertujuan untuk mengidentifikasi keberadaan api secara real-time dari
 - [Roboflow](https://roboflow.com/) atau LabelImg untuk pelabelan dataset
 
 ---
-
-## 📁 Struktur Folder
+## 📸 Dokumentasi Project
 
