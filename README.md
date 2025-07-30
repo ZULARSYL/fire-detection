@@ -29,7 +29,7 @@ Proyek ini bertujuan untuk mengidentifikasi keberadaan api secara real-time dari
 <img width="1103" height="828" alt="Screenshot 2025-07-29 143520" src="https://github.com/user-attachments/assets/06faf2eb-1c67-4b7c-9bad-8bfafeb9efcf" />
 ![test](https://github.com/user-attachments/assets/5e2de0f6-a0f1-4fe4-8d5e-a4578fd1f027)
 ---
-## Video Detection
+## Output Video
 https://github.com/user-attachments/assets/b55daf84-0a80-4a81-b299-7bf72e54cfb7
 
 
